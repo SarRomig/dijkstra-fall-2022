@@ -20,7 +20,7 @@ function kebabToCamel(kebabString) {
         }
         else {
             //Otherwise, copy lowercase to camelString
-            camelString += kebabString[i];
+            camelString += kebabString[i].toLowerCase;
         }
     }
     return camelString;
